@@ -4,6 +4,7 @@ function test2(a, b, c) {
 	console.log(arguments.callee.caller);
 }
 
+
 if (true) {
 	test2();
 }
